@@ -18,17 +18,17 @@ git checkout -b branch_name = creates a new branch and switches to it from the m
 git checkout branch_name = changes to the branch
 
 git merge branch_name = merges the change from the branch_name and the branch that you are inside
-git remote add ~remote name~ ~https://yourremoteurl~ = adds a new remote with the remote_name of the link
-git push -u ~remote name~ ~branch name~ = push changes to a remote repository
-git pull ~remote name~ ~branch name~ = pull changes from a remote repository
+git remote add remote_name https://yourremoteurl = adds a new remote with the remote_name of the link
+git push -u remote_name branch_name = push changes to a remote repository
+git pull remote_name branch_name = pull changes from a remote repository
 
-# 1. Rename your local 'master' branch to 'main'
+1. Rename your local 'master' branch to 'main'
 git branch -m master main
 
-# 2. Pull the existing files from the remote 'main' branch to sync them
+2. Pull the existing files from the remote 'main' branch to sync them
 git pull origin main --rebase
 
-# 3. Push your newly renamed local 'main' branch to the remote server
+3. Push your newly renamed local 'main' branch to the remote server
 git push -u origin main
 
 ## Done at 11:27 am 
