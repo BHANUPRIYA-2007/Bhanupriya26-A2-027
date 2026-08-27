@@ -23,16 +23,16 @@ once we initialize a folder as git, we can use all sorts of git commands on that
 * git pull remote_name branch_name = pull changes from a remote repository
 
 1. Rename your local 'master' branch to 'main'
-git branch -m master main
+  * git branch -m master main
 
 2. Pull the existing files from the remote 'main' branch to sync them
-git pull origin main --rebase
+  * git pull origin main --rebase
 
 3. Push your newly renamed local 'main' branch to the remote server
-git push -u origin main
+  * git push -u origin main
 
 4. you can safely delete the accidental remote master branch
-git push origin --delete master
+  * git push origin --delete master
 
 ## Done at 11:27 am 
 
