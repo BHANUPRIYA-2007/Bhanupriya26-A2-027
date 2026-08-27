@@ -31,7 +31,8 @@ git pull origin main --rebase
 3. Push your newly renamed local 'main' branch to the remote server
 git push -u origin main
 
+4. you can safely delete the accidental remote master branch
+git push origin --delete master
+
 ## Done at 11:27 am 
 
-#4. you can safely delete the accidental remote master branch
-git push origin --delete master
