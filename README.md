@@ -36,3 +36,32 @@ once we initialize a folder as git, we can use all sorts of git commands on that
 
 ## Done at 11:27 am 
 
+# STARTED WITH THE SECOND TASK
+## 2:15 pm
+
+### just learned how to display an image in opencv 
+img = cv2.imread('ugv_r3_task2/1.png', 1)
+here ,
+* IMREAD_COLOR(or 1): Default behavior. Loads the image as a 3-channel BGR color image and discards any transparency/alpha channel.cv2.
+* IMREAD_GRAYSCALE (or 0): Converts and loads the image strictly in 1-channel grayscale.cv2.
+* IMREAD_UNCHANGED (or -1): Loads the image exactly as it is, preserving transparency alpha channels if it is a PNG.
+
+TWO WAYS TO RESIZE AN IMAGE:
+* img = cv2.resize(img, (1280,720))
+img = cv2.resize(img, (0,0), fx=0.5,fy = 0.5)
+
+WAY TO ROTATE THE IMAGE:
+* img = cv2.rotate(img, cv2.ROTATE_90_CLOCKWISE)
+
+WAY TO SAVE THE IMAGE:
+* cv2.imwrite('IMAGE1.jpeg' , img)
+
+* learning how to add certain shapes on the image
+like rectangle ,arrowed lines, circle , lines etc.
+
+# at 8:56pm:
+
+* learned how to add text on the image
+* learning about region of interest
+* learning Canny edge detection from the youtube channel "programming knowledge"
+* removing noise reduction(using gaussian filter) --> gradient calculation(sobel kernel) --> non - maximum supression -- > double thresholding and edge tracking by hystersis.
