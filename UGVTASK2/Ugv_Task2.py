@@ -2,7 +2,7 @@ import matplotlib.pylab as plt
 import cv2
 import numpy as np
 
-img = cv2.imread('Asset/1.png')
+img = cv2.imread('UGVTASK2/Input Image 2/1.png')
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
 h, w = img.shape[:2]
@@ -70,7 +70,7 @@ lanes = avg_lines(img, segs)
 output = draw_lines(img, lanes)
 
 # Save the final image to your directory (converted back to BGR for OpenCV saving)
-cv2.imwrite('output.png', cv2.cvtColor(output, cv2.COLOR_RGB2BGR))
+cv2.imwrite('output1.png', cv2.cvtColor(output, cv2.COLOR_RGB2BGR))
 
 plt.imshow(output)
 plt.show()
