@@ -69,6 +69,6 @@ like rectangle ,arrowed lines, circle , lines etc.
 * i had a very hard time understanding area of interest , because what works for one image may not work for the other.
 but it is very interesting to learn, so i have finally completed the second task also .
 
-i know its not truly perfect yet but i have worked really hard for the past 2 days to do this one task.
+
 
 ## DONE WITH THE SECOND AND THIRD TASK NOW!! 
